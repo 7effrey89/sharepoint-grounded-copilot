@@ -1,0 +1,340 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
+    "@odata.etag": "\"{BE29D9E0-E1ED-4E61-B889-67A6D2B7ADA2},128\"",
+    "@microsoft.graph.tips": "Use $select to choose only the properties your app needs, as this can lead to performance improvements. For example: GET sites('<guid>')/pages('<guid>')/microsoft.graph.sitePage?$select=promotionKind,reactions",
+    "createdDateTime": "2024-09-04T07:50:56Z",
+    "description": "VIS | IT | Office 365 | Teams | Teams for Tribes Indholdsfortegnelse Tidslinje På tegningen ser du elementerne i TfT-udrulningen for et Tribe Squads deltagelse Når et Squad skal lære om Teams og principperne bag TfT, er det nødvendigt at alle i Squa…",
+    "eTag": "\"{BE29D9E0-E1ED-4E61-B889-67A6D2B7ADA2},128\"",
+    "id": "be29d9e0-e1ed-4e61-b889-67a6d2b7ada2",
+    "lastModifiedDateTime": "2024-09-12T12:10:35Z",
+    "name": "myPage1.aspx",
+    "webUrl": "https://microsofteur.sharepoint.com/teams/GettingReadyforTridentFabric/SitePages/myPage1.aspx",
+    "title": "Teams for Tribes: Udrulning og uddannelse",
+    "pageLayout": "article",
+    "thumbnailWebUrl": "https://microsofteur.sharepoint.com/_layouts/15/getpreview.ashx?path=%2Fteams%2FGettingReadyforTridentFabric%2FSiteAssets%2FSitePages%2FmyPage1%2F3355231054-content.png&ow=1403&oh=789",
+    "promotionKind": "page",
+    "showComments": true,
+    "showRecommendedPages": true,
+    "contentType": {
+        "id": "0x0101009D1CB255DA76424F860D91F20E6C411800A4652FF043FE094FBFFC29611E8EC49A",
+        "name": "Site Page"
+    },
+    "createdBy": {
+        "user": {
+            "displayName": "Jeffrey Lai",
+            "email": "jeffreylai@microsoft.com"
+        }
+    },
+    "lastModifiedBy": {
+        "user": {
+            "displayName": "Jeffrey Lai",
+            "email": "jeffreylai@microsoft.com"
+        }
+    },
+    "parentReference": {
+        "siteId": "c4a7b3a3-0c67-498e-b974-fc9b5a62324d"
+    },
+    "publishingState": {
+        "level": "published",
+        "versionId": "11.0"
+    },
+    "reactions": {},
+    "canvasLayout@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('be29d9e0-e1ed-4e61-b889-67a6d2b7ada2')/microsoft.graph.sitePage/canvasLayout/$entity",
+    "canvasLayout": {
+        "horizontalSections@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('be29d9e0-e1ed-4e61-b889-67a6d2b7ada2')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
+        "horizontalSections": [
+            {
+                "layout": "fullWidth",
+                "id": "0.5",
+                "emphasis": "none",
+                "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('be29d9e0-e1ed-4e61-b889-67a6d2b7ada2')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns",
+                "columns": [
+                    {
+                        "id": "1",
+                        "width": 0,
+                        "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('be29d9e0-e1ed-4e61-b889-67a6d2b7ada2')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns('1')/webparts",
+                        "webparts": [
+                            {
+                                "@odata.type": "#microsoft.graph.standardWebPart",
+                                "id": "881821e5-8fed-4e07-a905-0bcb6cf5c5d1",
+                                "webPartType": "cbe7b0a9-3504-44dd-a3a3-0e5cacd07788",
+                                "data": {
+                                    "dataVersion": "1.5",
+                                    "description": "Show a banner with title and author information",
+                                    "title": "Banner",
+                                    "properties": {
+                                        "imageSourceType": 2,
+                                        "title": "Teams for Tribes: Udrulning og uddannelse",
+                                        "textAlignment": "Left",
+                                        "showPublishDate": false,
+                                        "showTopicHeader": false,
+                                        "authorByline@odata.type": "#Collection(String)",
+                                        "authorByline": [
+                                            "i:0#.f|membership|jeffreylai@microsoft.com"
+                                        ],
+                                        "layoutType": "CutInShape",
+                                        "topicHeader": "",
+                                        "enableGradientEffect": true,
+                                        "isDecorative": true,
+                                        "authors@odata.type": "#Collection(graph.Json)",
+                                        "authors": [
+                                            {
+                                                "id": "i:0#.f|membership|jeffreylai@microsoft.com",
+                                                "upn": "jeffreylai@microsoft.com",
+                                                "email": "jeffreylai@microsoft.com",
+                                                "name": "Jeffrey Lai",
+                                                "role": "TECHNICAL SPECIALIST"
+                                            }
+                                        ]
+                                    },
+                                    "serverProcessedContent": {
+                                        "htmlStrings": [],
+                                        "searchablePlainTexts": [],
+                                        "links": [],
+                                        "imageSources": [
+                                            {
+                                                "key": "imageSource",
+                                                "value": "/_layouts/15/images/sleektemplateimagetile.jpg"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "oneThirdRightColumn",
+                "id": "1.25",
+                "emphasis": "none",
+                "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('be29d9e0-e1ed-4e61-b889-67a6d2b7ada2')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.25')/columns",
+                "columns": [
+                    {
+                        "id": "1",
+                        "width": 8,
+                        "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('be29d9e0-e1ed-4e61-b889-67a6d2b7ada2')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.25')/columns('1')/webparts",
+                        "webparts": [
+                            {
+                                "@odata.type": "#microsoft.graph.textWebPart",
+                                "id": "3e401946-5f4f-497a-bd4d-2fbdd9d04af4",
+                                "innerHtml": "<p><a href=\"/teams/GettingReadyforTridentFabric/SitePages/myPage1.aspx\">VIS</a> | <a href=\"/teams/GettingReadyforTridentFabric/SitePages/Home.aspx\">IT</a> | <a href=\"/teams/GettingReadyforTridentFabric/SitePages/myPage1.aspx\">Office 365</a> | <a href=\"/teams/GettingReadyforTridentFabric/SitePages/myPage1.aspx\">Teams</a> | <a href=\"/teams/GettingReadyforTridentFabric/SitePages/myPage1.aspx\">Teams for Tribes</a></p>"
+                            },
+                            {
+                                "@odata.type": "#microsoft.graph.textWebPart",
+                                "id": "f11a760e-2e36-4c20-be26-f2b165b08f66",
+                                "innerHtml": "<h3 class=\"headingSpacingAbove headingSpacingBelow\" style=\"margin-left:0px;\"><strong>Indholdsfortegnelse</strong></h3><h3 class=\"headingSpacingAbove headingSpacingBelow\" style=\"margin-left:0px;\">Tidslinje</h3><p style=\"margin-left:0px;\">På tegningen ser du elementerne i TfT-udrulningen for et Tribe</p>"
+                            },
+                            {
+                                "@odata.type": "#microsoft.graph.standardWebPart",
+                                "id": "f4e1e3a1-a604-4c30-8311-2ead11c618da",
+                                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8",
+                                "data": {
+                                    "dataVersion": "1.12",
+                                    "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                                    "title": "Image",
+                                    "properties": {
+                                        "imageSourceType": 2,
+                                        "captionText": "",
+                                        "altText": "",
+                                        "linkUrl": "",
+                                        "overlayText": "",
+                                        "fileName": "content.png",
+                                        "siteId": "c4a7b3a3-0c67-498e-b974-fc9b5a62324d",
+                                        "webId": "6cc4f960-8318-457a-bf66-db127cee1d1d",
+                                        "listId": "7469f5c2-6c2c-4bed-857d-99280d96cf9b",
+                                        "uniqueId": "2339445a-ad5f-48dd-a9c4-9a7ef6c2b4a5",
+                                        "imgWidth": 1403,
+                                        "imgHeight": 789,
+                                        "minimumLayoutWidth": 1,
+                                        "isOverlayTextVisible": true,
+                                        "resizeCoefficient": 1,
+                                        "alignment": "Center",
+                                        "fixAspectRatio": false,
+                                        "overlayTextStyles": {
+                                            "@odata.type": "#graph.Json",
+                                            "textColor": "light",
+                                            "isBold": false,
+                                            "isItalic": false,
+                                            "textBoxColor": "dark",
+                                            "textBoxOpacity": 0.54,
+                                            "overlayColor": "light",
+                                            "overlayTransparency": 0
+                                        }
+                                    },
+                                    "serverProcessedContent": {
+                                        "htmlStrings": [],
+                                        "searchablePlainTexts": [],
+                                        "links": [],
+                                        "imageSources": [
+                                            {
+                                                "key": "imageSource",
+                                                "value": "/teams/GettingReadyforTridentFabric/SiteAssets/SitePages/myPage1/3355231054-content.png"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "@odata.type": "#microsoft.graph.textWebPart",
+                                "id": "902b7d2b-357c-4387-a6d0-1060958c7dc4",
+                                "innerHtml": "<h3 style=\"margin-left:0px;\">Squads deltagelse</h3><p style=\"margin-left:0px;\">Når et Squad skal lære om Teams og principperne bag TfT, er det nødvendigt at alle i Squadet deltager. Teams er en samarbejds- og kommunikationsplatform, så derfor bliver det svært hvis alle ikke er med på Teams-rejsen.</p><p style=\"margin-left:0px;\">Det er PO og SM i fællesskab, der planlægger, hvornår et Squad deltager i TfT-udrulningen. Der skal afsættes tid til læring i Squadets sprints.</p><p style=\"margin-left:0px;\">Se evt. <a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108106.aspx\"><u>JIRA-skabelonopgaver til Squadets Teams-læring</u></a></p><h3 style=\"margin-left:0px;\">Squads der ikke deltager</h3><p style=\"margin-left:0px;\">Det er mest effektivt, hvis alle Squads i en Tribe deltager i udrulningen og bliver oplært indenfor den tidsperiode, der aftalt med Tribe Lead og TfT-tovholder.</p><p style=\"margin-left:0px;\">Squads der ikke kan deltage i udrulningen i aftalte tidsperiode skal selv forestå oplæringen uden support fra Samarbejdsværktøjer.</p><p style=\"margin-left:0px;\">&nbsp;</p><h3 style=\"margin-left:0px;\">Ledelsesopbakning og ambassadører</h3><p style=\"margin-left:0px;\">Det er Squad Samarbejdsværktøj, der faciliterer udrulningen. For at så stor en forandring lykkes er ledelsesopbakningen vigtig. Bl.a. derfor faciliteres læringsforløbet for Squads af deres SM.</p><p style=\"margin-left:0px;\">Resten af Tribe-ledelsen skal også have forståelse for dette omkring TfT:</p><ul class=\"customListStyle\"><li><p style=\"margin-left:0px !important;\">Roller og ansvar</p></li><li><p style=\"margin-left:0px !important;\">Principper og Struktur</p></li></ul><p style=\"margin-left:0px;\">Tribe-ledelsen bliver tilbudt et separat læringsforløb tidligt i udrulningen, for at sikre denne forståelse.</p><p style=\"margin-left:0px;\">Tribe-Ledelsen skal vise vejen for hele Tribet ved at være Ambassadører. Derudover udpeger PO og SM nogle få personer fra hvert Squad, som også er ambassadører, og hjælper til med opbakning i udrulningen.</p><p style=\"margin-left:0px;\">Se også nærmere forneden under Baggrund.</p><h3 style=\"margin-left:0px;\">Elementer i udrulningen</h3><p style=\"margin-left:0px;\">Ovenstående argumenterom Squads deltagelse, ledelsesopbakning og ambassadører er tænkt ind i elementerne i udrulningen, vi gennemgår forneden:</p><ul class=\"customListStyle\"><li><p style=\"margin-left:0px !important;\"><a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108095.aspx#a_Intro_til_Tribe\"><u>Intro til Tribe ledelse</u></a></p></li><li><p style=\"margin-left:0px !important;\"><a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108095.aspx#a_Opstning_af_Tribe-\"><u>Opsætning af Tribe- og Squad Teams</u></a></p></li><li><p style=\"margin-left:0px !important;\"><a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108095.aspx#a_Flles_intro_til\"><u>Fælles intro til alle i Tribe</u></a></p></li><li><p style=\"margin-left:0px !important;\"><a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108095.aspx#a_Personlig_opstning_af\"><u>Personlig opsætning af Teams</u></a></p></li><li><p style=\"margin-left:0px !important;\"><a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108095.aspx#a_Lringsforlb_for_ledelse\"><u>Læringsforløb for ledelse og ambassdører</u></a></p></li><li><p style=\"margin-left:0px !important;\">Squad:</p><ul class=\"customListStyle\"><li><p style=\"margin-left:0px !important;\"><a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108095.aspx#a_Squad:_Interne_aftalerLringsforl\"><u>Interne aftaler/Læringsforløb</u></a></p></li><li><p style=\"margin-left:0px !important;\"><a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108095.aspx#a_Opflgning_pr._Squad\"><u>Opfølgning</u></a></p></li></ul></li></ul><p style=\"margin-left:0px;\">&nbsp;</p><h2 style=\"margin-left:0px;\">Elementer i udrulningen</h2><h3 style=\"margin-left:0px;\">Intro til Tribe-ledelse</h3><h4 style=\"margin-left:0px;\"><strong>Hvorfor?</strong></h4><p style=\"margin-left:0px;\">Formålet er at give ledelsen i en Tribe et tidligt indblik i udrulningen af Teams for Tribes, og ikke mindst tidsforbruget.</p><p style=\"margin-left:0px;\">Med en fælles forståelse og accept af udrulningen, får vi den bedste opbakning hos alle.</p><h4 style=\"margin-left:0px;\"><strong>Hvordan?</strong></h4><p style=\"margin-left:0px;\">Intro-mødet faciliteres af Squad Samarbejdsværktøjer. TfT-tovholderen hjælper med at finde et passende tidspunkt.</p><p style=\"margin-left:0px;\">&nbsp;</p><h3 style=\"margin-left:0px;\">Opsætning af Tribe- og Squad Teams</h3><h4 style=\"margin-left:0px;\"><strong>Hvorfor?</strong></h4><p style=\"margin-left:0px;\">Tidligt i udrulningen laver vi de organisatoriske Teams:</p><ul class=\"customListStyle\"><li><p style=\"margin-left:0px !important;\">Et Teams til Tribet</p></li><li><p style=\"margin-left:0px !important;\">Et Teams til hvert Squad i Tribet</p></li></ul><p style=\"margin-left:0px;\">Ét af formålene er at åbne trinvist op for kommunikation og samarbejde på Teams. Det er en fordel, når Squads kan at starte småt med at øve sig – fx ved at:</p><ul class=\"customListStyle\"><li><p style=\"margin-left:0px !important;\">Orientere hinanden om fravær på Squad-kanalen <strong>Ferie, fravær og vagter</strong></p></li><li><p style=\"margin-left:0px !important;\">Lave uformelle opslag på Squad-kanalen <strong>Hyggehjørnet</strong></p></li><li><p style=\"margin-left:0px !important;\">Dele viden på Tribe-kanalen <strong>Vidensdeling om Teams og Sharepoint</strong></p></li></ul><h4 style=\"margin-left:0px;\"><strong>Hvordan?</strong></h4><p style=\"margin-left:0px;\">Se vejledningen <a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108107.aspx\"><u>Bestil og opsæt Teams</u></a></p><h3 style=\"margin-left:0px;\">Læringsforløb for ledelse og ambassdører</h3><h4 style=\"margin-left:0px;\"><strong>Hvorfor?</strong></h4><p style=\"margin-left:0px;\">Succesfuld implementering kræver ledelsesopbakning og engagerede Ambassadører. Det gælder også for TfT.</p><p style=\"margin-left:0px;\">I TfT-udrulningen er det derfor vigtigt, at ledelsen i Tribe (TL, POs, SMs og CHLs) er Ambassadører, og går foran med det gode eksempel med god adfærd på Teams.</p><p style=\"margin-left:0px;\">Læringsforløbet giver ledelsen et tidligt indblik i den læring, alle Squad-medlemmer skal gennemgå i TfT-udrulningen.</p><h4 style=\"margin-left:0px;\"><strong>Hvordan?</strong></h4><p style=\"margin-left:0px;\">Samarbejdsværktøjer faciliterer et læringsforløb for ledelsen, for at klæde dem på til at være gode Ambassadører i udrulningen.</p><h3 style=\"margin-left:0px;\">Fælles intro til alle i Tribe</h3><h4 style=\"margin-left:0px;\"><strong>Hvorfor?</strong></h4><p style=\"margin-left:0px;\">Tribe-ledelsen skal italesætte vigtigheden af den læring hele Tribet skal igennem, for at medvirke til, at alle i Tribet accepterer den nye måde at samarbejde på.</p><p style=\"margin-left:0px;\">Derfor samler vi alle i Tribet til en fælles introduktion, som faciliteres af Tribets TfT-tovholder.</p><h4 style=\"margin-left:0px;\"><strong>Hvordan?</strong></h4><p style=\"margin-left:0px;\">TfT-tovholderen indkalder, faciliterer og er mødeleder. Der afspilles video, hvor principper og struktur gennemgåes.</p><p style=\"margin-left:0px;\">Squad Samarbejdsværktøjer deltager for at besvare spørgsmål</p><h3 style=\"margin-left:0px;\">Personlig opsætning af Teams</h3><h4 style=\"margin-left:0px;\"><strong>Hvorfor?</strong></h4><p style=\"margin-left:0px;\">For at kunne overskue de Teams, der opstår ved udrulningen af Teams for Tribes, skal alle igennem en personlig opsætning af Teams, hvor de:</p><ul class=\"customListStyle\"><li><p style=\"margin-left:0px !important;\">Prioriterer og fravælger Teams og kanaler, så de ligger i en overskuelig rækkefølge</p></li><li><p style=\"margin-left:0px !important;\">Opsætter meddelelser, så man modtager de nødvendige fra Teams</p></li></ul><h4 style=\"margin-left:0px;\"><strong>Hvordan?</strong></h4><ol class=\"customListStyle\" style=\"list-style-type:decimal;\"><li><p style=\"margin-left:0px !important;\">Gennemgå <a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD106181.aspx\"><u>Få overblik over dine Teams og Kanaler</u></a></p></li><li><p style=\"margin-left:0px !important;\">Gennemgå <a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD106209.aspx\"><u>Tilpas/begræns meddelelser fra Teams</u></a></p></li></ol><h3 style=\"margin-left:0px;\">Squad: Interne aftaler/Læringsforløb</h3><h4 style=\"margin-left:0px;\"><strong>Hvorfor?</strong></h4><p style=\"margin-left:0px;\">Squadets samlede effektivitet bliver øget, når alle har en god forståelse for anvendelsen af Teams og har en god adfærd på Teams.</p><p style=\"margin-left:0px;\">Teams læres bedst sammen med andre i et fælles læringsforløb for Squadet.</p><p style=\"margin-left:0px;\">Squadet skal have et passende antal faglige Teams, når de starter på TfT-udrulningen. De produkt- og projektopgaver Squadet aftaler at samarbejde om på Teams, skal der laves separate faglige Teams til.</p><h4 style=\"margin-left:0px;\"><strong>Hvordan?</strong></h4><ul class=\"customListStyle\"><li><p style=\"margin-left:0px !important;\">Hele Squadet gennemgår et fælles læringsforløb, som SM faciliterer med udgangspunkt i</p><ul class=\"customListStyle\"><li><p style=\"margin-left:0px !important;\">Videoen <a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108106.aspx\"><u>Teams for Squads</u></a></p></li><li><p style=\"margin-left:0px !important;\">TfT-mødepakken <a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108106.aspx\"><u>Sådan introducerer du Teams i dit Squad</u></a></p></li><li><p style=\"margin-left:0px !important;\">Spørgsmål og svar på kanalen <a href=\"https://teams.microsoft.com/l/channel/19:5f2f1673a6c64f3daae6a3bcbd6e3fbc%40thread.tacv2/Tilpas%2520opstart%2520af%2520dit%2520Teams?groupId=f9c60df5-4750-4a91-b514-db26854c6692&amp;tenantId=df5e7718-2989-44ed-a2fd-5f63e2865f17\"><u>Tilpas opstart af dit Teams</u></a></p></li></ul></li><li><p style=\"margin-left:0px !important;\">På ét af møderne i mødepakken aftaler Squadet hvilke opgaver, de fremover skal kommunikere og samarbejde om på nye faglige Teams.</p></li><li><p style=\"margin-left:0px !important;\">Medlemmer fra alle Squads der deltager i TfT-udrulningen, får direkte support fra Squad Samarbejdsværktøjer ved at skrive til <a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108091.aspx\"><u>@BuddyTeams på kanalen Vidensdeling om Teams og Sharepoint</u></a>.</p></li></ul><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\">&nbsp;</p><h3 style=\"margin-left:0px;\">Opfølgning</h3><h4 style=\"margin-left:0px;\"><strong>Hvorfor?</strong></h4><p style=\"margin-left:0px;\">Hvordan er det gået med TfT-udrulningen i dette Squad?</p><p style=\"margin-left:0px;\">Er der forbedringsønsker til TfT-materialet, der ikke allerede er adresseret <a href=\"https://teams.microsoft.com/l/channel/19:990255f33a6942d582bb5c47de8be8f4%40thread.tacv2/Hj%25C3%25A6lp%2520mig?groupId=f9c60df5-4750-4a91-b514-db26854c6692&amp;tenantId=df5e7718-2989-44ed-a2fd-5f63e2865f17\"><u>på kanalen Hjælp mig</u></a>?</p><h4 style=\"margin-left:0px;\"><strong>Hvordan?</strong></h4><p style=\"margin-left:0px;\">Når Squadets læring er i gang, rækker Squad Samarbejdsværktøjer ud til SM for at høre om status.</p><p style=\"margin-left:0px;\"><span lang=\"en-US\" dir=\"ltr\">Se fx:</span></p><ul class=\"customListStyle\"><li><p style=\"margin-left:0px !important;\"><a href=\"https://teams.microsoft.com/l/message/19:8e0e268b2f2d4bb98b823055cc82258f%40thread.tacv2/1630068912781?tenantId=df5e7718-2989-44ed-a2fd-5f63e2865f17&amp;groupId=f9c60df5-4750-4a91-b514-db26854c6692&amp;parentMessageId=1630068912781&amp;teamName=Teams:%20Strukturering%20og%20implementering&amp;channelName=Impl.%20Tribe%20Investering%20og%20Formue&amp;createdTime=1630068912781\"><span lang=\"en-US\" dir=\"ltr\"><u>Teams-læring i Squad Trusted Investment</u></span></a></p></li><li><p style=\"margin-left:0px !important;\"><a href=\"https://teams.microsoft.com/l/message/19:8e0e268b2f2d4bb98b823055cc82258f%40thread.tacv2/1630069112426?tenantId=df5e7718-2989-44ed-a2fd-5f63e2865f17&amp;groupId=f9c60df5-4750-4a91-b514-db26854c6692&amp;parentMessageId=1630069112426&amp;teamName=Teams:%20Strukturering%20og%20implementering&amp;channelName=Impl.%20Tribe%20Investering%20og%20Formue&amp;createdTime=1630069112426\"><u>Teams-læring i Squad Kapitalforvaltningssystemer</u></a></p></li></ul><p style=\"margin-left:0px;\">&nbsp;</p><p style=\"margin-left:0px;\">I den forbindelse aftaler Squad Samarbejdsværktøjer med TfT-tovholder og SMs, hvad der er brug for – fx</p><ul class=\"customListStyle\"><li><p style=\"margin-left:0px !important;\">Et fælles opfølgningsmøde for alle Squads i Tribe</p></li><li><p style=\"margin-left:0px !important;\">Individuelle opfølgningsmøder for Squads med Squad Samarbejdsværktøjer</p></li><li><p style=\"margin-left:0px !important;\">Ingen opfølgningsmøder</p></li></ul><h2 style=\"margin-left:0px;\">Baggrund</h2><h3 style=\"margin-left:0px;\">Roller og ansvar - Principper og struktur</h3><p style=\"margin-left:0px;\">Du kan med fordel læse om:</p><ul class=\"customListStyle\"><li><p style=\"margin-left:0px !important;\"><a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108091.aspx\"><u>Roller og ansvar i TfT-udrulningen</u></a></p></li><li><p style=\"margin-left:0px !important;\"><a href=\"https://jyskebank.sharepoint.com/sites/FD-F-03/SitePages/FD108088.aspx\"><u>Principper og struktur</u></a></p></li></ul><h3 style=\"margin-left:0px;\">Spørgsmål og svar</h3><ul class=\"customListStyle\"><li><p style=\"margin-left:0px !important;\">Se <a href=\"https://jyskebank.sharepoint.com/sites/T01822/SitePages/Sp%c3%b8rgsm%c3%a5l-og-svar.aspx\"><u>spørgsmål og svar for TfT</u></a></p></li><li><p style=\"margin-left:0px !important;\">Stil spørgsmål <a href=\"https://teams.microsoft.com/l/channel/19:990255f33a6942d582bb5c47de8be8f4%40thread.tacv2/Hj%25C3%25A6lp%2520mig?groupId=f9c60df5-4750-4a91-b514-db26854c6692&amp;tenantId=df5e7718-2989-44ed-a2fd-5f63e2865f17\"><u>på Produkt-Teams til TfT</u></a></p></li></ul>"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "width": 4,
+                        "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('be29d9e0-e1ed-4e61-b889-67a6d2b7ada2')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.25')/columns('2')/webparts",
+                        "webparts": [
+                            {
+                                "@odata.type": "#microsoft.graph.standardWebPart",
+                                "id": "3bef7d24-167f-4017-8c07-b96b3488effb",
+                                "webPartType": "c70391ea-0b10-4ee9-b2b4-006d3fcad0cd",
+                                "data": {
+                                    "dataVersion": "2.3",
+                                    "description": "Show a collection of links to content such as documents, images, videos, and more in a variety of layouts with options for icons, images, and audience targeting.",
+                                    "title": "Quick links",
+                                    "properties": {
+                                        "isMigrated": true,
+                                        "layoutId": "CompactCard",
+                                        "shouldShowThumbnail": true,
+                                        "imageWidth": 100,
+                                        "hideWebPartWhenEmpty": true,
+                                        "dataProviderId": "QuickLinks",
+                                        "webId": "6cc4f960-8318-457a-bf66-db127cee1d1d",
+                                        "siteId": "c4a7b3a3-0c67-498e-b974-fc9b5a62324d",
+                                        "items@odata.type": "#Collection(graph.Json)",
+                                        "items": [
+                                            {
+                                                "thumbnailType": 3,
+                                                "id": 3,
+                                                "description": "",
+                                                "altText": "",
+                                                "rawPreviewImageMinCanvasWidth": 32767,
+                                                "sourceItem": {
+                                                    "@odata.type": "#graph.Json",
+                                                    "itemType": 0,
+                                                    "fileExtension": ".ASPX",
+                                                    "guids": {
+                                                        "@odata.type": "#graph.Json",
+                                                        "siteId": "c4a7b3a3-0c67-498e-b974-fc9b5a62324d",
+                                                        "webId": "6cc4f960-8318-457a-bf66-db127cee1d1d",
+                                                        "listId": "{203C4BF3-7FF7-4BC2-9939-E8F9C59BB2B5}",
+                                                        "uniqueId": "6c2ebe97-3f1b-47b2-872e-29ea851cacce"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "thumbnailType": 3,
+                                                "id": 2,
+                                                "description": "",
+                                                "altText": "",
+                                                "rawPreviewImageMinCanvasWidth": 32767,
+                                                "sourceItem": {
+                                                    "@odata.type": "#graph.Json",
+                                                    "itemType": 0,
+                                                    "fileExtension": ".ASPX",
+                                                    "guids": {
+                                                        "@odata.type": "#graph.Json",
+                                                        "siteId": "c4a7b3a3-0c67-498e-b974-fc9b5a62324d",
+                                                        "webId": "6cc4f960-8318-457a-bf66-db127cee1d1d",
+                                                        "listId": "{203C4BF3-7FF7-4BC2-9939-E8F9C59BB2B5}",
+                                                        "uniqueId": "be29d9e0-e1ed-4e61-b889-67a6d2b7ada2"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "thumbnailType": 3,
+                                                "id": 1,
+                                                "description": "",
+                                                "altText": "",
+                                                "rawPreviewImageMinCanvasWidth": 32767,
+                                                "sourceItem": {
+                                                    "@odata.type": "#graph.Json",
+                                                    "itemType": 0,
+                                                    "fileExtension": ".ASPX",
+                                                    "guids": {
+                                                        "@odata.type": "#graph.Json",
+                                                        "siteId": "c4a7b3a3-0c67-498e-b974-fc9b5a62324d",
+                                                        "webId": "6cc4f960-8318-457a-bf66-db127cee1d1d",
+                                                        "listId": "{203C4BF3-7FF7-4BC2-9939-E8F9C59BB2B5}",
+                                                        "uniqueId": "958f269c-36fc-4656-a6c7-a28f2e69ce2e"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "listLayoutOptions": {
+                                            "@odata.type": "#graph.Json",
+                                            "showDescription": false,
+                                            "showIcon": true
+                                        },
+                                        "buttonLayoutOptions": {
+                                            "@odata.type": "#graph.Json",
+                                            "showDescription": false,
+                                            "buttonTreatment": 2,
+                                            "iconPositionType": 2,
+                                            "textAlignmentVertical": 2,
+                                            "textAlignmentHorizontal": 2,
+                                            "linesOfText": 2
+                                        },
+                                        "waffleLayoutOptions": {
+                                            "@odata.type": "#graph.Json",
+                                            "iconSize": 1,
+                                            "onlyShowThumbnail": false
+                                        }
+                                    },
+                                    "serverProcessedContent": {
+                                        "htmlStrings": [],
+                                        "searchablePlainTexts": [
+                                            {
+                                                "key": "title",
+                                                "value": "Relaterede Sider"
+                                            },
+                                            {
+                                                "key": "items[0].title",
+                                                "value": "Home"
+                                            },
+                                            {
+                                                "key": "items[1].title",
+                                                "value": "Page1"
+                                            },
+                                            {
+                                                "key": "items[2].title",
+                                                "value": "Page2"
+                                            }
+                                        ],
+                                        "links": [
+                                            {
+                                                "key": "baseUrl",
+                                                "value": "/teams/GettingReadyforTridentFabric"
+                                            },
+                                            {
+                                                "key": "items[0].sourceItem.url",
+                                                "value": "/teams/GettingReadyforTridentFabric/SitePages/Home.aspx"
+                                            },
+                                            {
+                                                "key": "items[1].sourceItem.url",
+                                                "value": "/teams/GettingReadyforTridentFabric/SitePages/myPage1.aspx"
+                                            },
+                                            {
+                                                "key": "items[2].sourceItem.url",
+                                                "value": "/teams/GettingReadyforTridentFabric/SitePages/Page2.aspx"
+                                            }
+                                        ],
+                                        "imageSources": []
+                                    }
+                                }
+                            },
+                            {
+                                "@odata.type": "#microsoft.graph.textWebPart",
+                                "id": "d4e4f80c-121a-4345-8385-a0a0b15882ad",
+                                "innerHtml": "<h2>Egenskaber</h2><p><strong>Supportansvarlig</strong></p><p><a href=\"https://jyskebank.sharepoint.com/SitePages/Support.aspx\">Koncernsupport</a></p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Godkendelse</strong></p><p>Skal ikke godkendes</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Ændret</strong></p><p>22/08-2024</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Primær tekstansvarlig</strong></p><p>SA</p><p>Søren Hvidkjær Andersen</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Sekundær tekstansvarlig</strong></p><p>S</p><p>Samarbejdsværktøjer</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Informationstype</strong></p><p>Brugervejledning</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Overordnet emne</strong></p><p>It</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Emne</strong></p><p>Teams for Tribes</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Roller</strong></p><p>Alle medarbejdere</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Arbejdssteder</strong></p><p>Jyske Bank</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Beskrivelse</strong></p><p>Tidslinje På tegningen ser du elementerne i TfT-udrulningen for et Tribe Squads deltagelse Når et Squad skal lære om Teams og principperne bag TfT, er det nødvendigt at alle i Squadet deltager. Teams er en samarbejds- og kommunikationsplatform, så d…</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p><strong>Gammelt Dokument-id</strong></p><p>v32385</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p><strong>Revideres senest</strong></p><p>22-08-2025</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p><strong>Link til gammel VIS-Docx-version</strong></p><p>https://jyskebank.sharepoint.com/sites/FD-F-01/VISGammelSLIP/v32385.docx?web=1</p>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

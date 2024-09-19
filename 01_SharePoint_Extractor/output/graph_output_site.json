@@ -1,0 +1,15 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites/$entity",
+    "@microsoft.graph.tips": "Use $select to choose only the properties your app needs, as this can lead to performance improvements. For example: GET sites('<key>')/microsoft.graph.getByPath(path=<key>)?$select=displayName,error",
+    "createdDateTime": "2023-05-24T08:12:47.197Z",
+    "description": "A place to get ready for Trident",
+    "id": "microsofteur.sharepoint.com,c4a7b3a3-0c67-498e-b974-fc9b5a62324d,6cc4f960-8318-457a-bf66-db127cee1d1d",
+    "lastModifiedDateTime": "2024-09-15T19:47:29Z",
+    "name": "GettingReadyforTridentFabric",
+    "webUrl": "https://microsofteur.sharepoint.com/teams/GettingReadyforTridentFabric",
+    "displayName": "Getting Ready for Trident/Fabric",
+    "root": {},
+    "siteCollection": {
+        "hostname": "microsofteur.sharepoint.com"
+    }
+}
