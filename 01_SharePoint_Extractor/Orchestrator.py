@@ -8,10 +8,10 @@ from azure.search.documents import SearchClient
 from azure.core.credentials import AzureKeyCredential
 from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 
-AZURE_SQL_server = "jladwh.database.windows.net"
-AZURE_SQL_database = "sandbox"
-AZURE_SQL_username = "jeffreylai"
-AZURE_SQL_password = "Password1"
+AZURE_SQL_server = "<sql-server>.database.windows.net"
+AZURE_SQL_database = "<database>"
+AZURE_SQL_username = "<username>"
+AZURE_SQL_password = "<password1>"
 AZURE_SQL_driver = "ODBC Driver 17 for SQL Server"
 
 # Load environment variables from .env file
