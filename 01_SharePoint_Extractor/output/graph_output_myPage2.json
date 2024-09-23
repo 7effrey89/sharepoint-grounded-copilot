@@ -1,0 +1,290 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
+    "@odata.etag": "\"{41C59019-D5AD-41F7-8DDB-B7804E540B54},51\"",
+    "@microsoft.graph.tips": "Use $select to choose only the properties your app needs, as this can lead to performance improvements. For example: GET sites('<guid>')/pages('<guid>')/microsoft.graph.sitePage?$select=promotionKind,reactions",
+    "createdDateTime": "2024-09-12T12:01:44Z",
+    "description": "VIS | IT | Office 365 | Teams | Teams for Tribes PerksPlus Health and Wellness Reimbursement Program for Contoso Electronics Employees This document contains information generated using a language model (Azure OpenAI). The information contained in t…",
+    "eTag": "\"{41C59019-D5AD-41F7-8DDB-B7804E540B54},51\"",
+    "id": "41c59019-d5ad-41f7-8ddb-b7804e540b54",
+    "lastModifiedDateTime": "2024-09-12T12:10:11Z",
+    "name": "myPage2.aspx",
+    "webUrl": "https://microsofteur.sharepoint.com/teams/GettingReadyforTridentFabric/SitePages/myPage2.aspx",
+    "title": "PerksPlus Health and Wellness Contoso Electronics",
+    "pageLayout": "article",
+    "thumbnailWebUrl": "https://media.akamai.odsp.cdn.office.net/microsofteur.sharepoint.com/_layouts/15/images/sitepagethumbnail.png",
+    "promotionKind": "page",
+    "showComments": true,
+    "showRecommendedPages": true,
+    "contentType": {
+        "id": "0x0101009D1CB255DA76424F860D91F20E6C411800A4652FF043FE094FBFFC29611E8EC49A",
+        "name": "Site Page"
+    },
+    "createdBy": {
+        "user": {
+            "displayName": "Jeffrey Lai",
+            "email": "jeffreylai@microsoft.com"
+        }
+    },
+    "lastModifiedBy": {
+        "user": {
+            "displayName": "Jeffrey Lai",
+            "email": "jeffreylai@microsoft.com"
+        }
+    },
+    "parentReference": {
+        "siteId": "c4a7b3a3-0c67-498e-b974-fc9b5a62324d"
+    },
+    "publishingState": {
+        "level": "published",
+        "versionId": "1.0"
+    },
+    "reactions": {},
+    "canvasLayout@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('41c59019-d5ad-41f7-8ddb-b7804e540b54')/microsoft.graph.sitePage/canvasLayout/$entity",
+    "canvasLayout": {
+        "horizontalSections@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('41c59019-d5ad-41f7-8ddb-b7804e540b54')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
+        "horizontalSections": [
+            {
+                "layout": "fullWidth",
+                "id": "0.5",
+                "emphasis": "none",
+                "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('41c59019-d5ad-41f7-8ddb-b7804e540b54')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns",
+                "columns": [
+                    {
+                        "id": "1",
+                        "width": 0,
+                        "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('41c59019-d5ad-41f7-8ddb-b7804e540b54')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns('1')/webparts",
+                        "webparts": [
+                            {
+                                "@odata.type": "#microsoft.graph.standardWebPart",
+                                "id": "881821e5-8fed-4e07-a905-0bcb6cf5c5d1",
+                                "webPartType": "cbe7b0a9-3504-44dd-a3a3-0e5cacd07788",
+                                "data": {
+                                    "dataVersion": "1.5",
+                                    "description": "Show a banner with title and author information",
+                                    "title": "Banner",
+                                    "properties": {
+                                        "imageSourceType": 2,
+                                        "title": "PerksPlus Health and Wellness\n\nContoso Electronics",
+                                        "textAlignment": "Left",
+                                        "showPublishDate": false,
+                                        "showTopicHeader": false,
+                                        "authorByline@odata.type": "#Collection(String)",
+                                        "authorByline": [
+                                            "i:0#.f|membership|jeffreylai@microsoft.com"
+                                        ],
+                                        "layoutType": "CutInShape",
+                                        "topicHeader": "",
+                                        "enableGradientEffect": true,
+                                        "isDecorative": true,
+                                        "authors@odata.type": "#Collection(graph.Json)",
+                                        "authors": [
+                                            {
+                                                "id": "i:0#.f|membership|jeffreylai@microsoft.com",
+                                                "upn": "jeffreylai@microsoft.com",
+                                                "email": "jeffreylai@microsoft.com",
+                                                "name": "Jeffrey Lai",
+                                                "role": "TECHNICAL SPECIALIST"
+                                            }
+                                        ]
+                                    },
+                                    "serverProcessedContent": {
+                                        "htmlStrings": [],
+                                        "searchablePlainTexts": [],
+                                        "links": [],
+                                        "imageSources": [
+                                            {
+                                                "key": "imageSource",
+                                                "value": "/_layouts/15/images/sleektemplateimagetile.jpg"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "oneThirdRightColumn",
+                "id": "1.25",
+                "emphasis": "none",
+                "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('41c59019-d5ad-41f7-8ddb-b7804e540b54')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.25')/columns",
+                "columns": [
+                    {
+                        "id": "1",
+                        "width": 8,
+                        "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('41c59019-d5ad-41f7-8ddb-b7804e540b54')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.25')/columns('1')/webparts",
+                        "webparts": [
+                            {
+                                "@odata.type": "#microsoft.graph.textWebPart",
+                                "id": "3e401946-5f4f-497a-bd4d-2fbdd9d04af4",
+                                "innerHtml": "<p><a href=\"/teams/GettingReadyforTridentFabric/SitePages/myPage2.aspx\">VIS</a> | <a href=\"/teams/GettingReadyforTridentFabric/SitePages/Home.aspx\">IT</a> | <a href=\"/teams/GettingReadyforTridentFabric/SitePages/myPage2.aspx\">Office 365</a> | <a href=\"/teams/GettingReadyforTridentFabric/SitePages/myPage2.aspx\">Teams</a> | <a href=\"/teams/GettingReadyforTridentFabric/SitePages/myPage2.aspx\">Teams for Tribes</a></p>"
+                            },
+                            {
+                                "@odata.type": "#microsoft.graph.textWebPart",
+                                "id": "f11a760e-2e36-4c20-be26-f2b165b08f66",
+                                "innerHtml": "<h3 class=\"headingSpacingAbove headingSpacingBelow\" style=\"margin-left:0px;\">PerksPlus Health and Wellness Reimbursement Program for Contoso Electronics Employees&nbsp;</h3><p style=\"margin-left:0px;\"><span class=\"fontSizeMedium\">This document contains information generated using a language model (Azure OpenAI). The information contained in this document is only for demonstration purposes and does not reflect the opinions or beliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the information contained in this document. All rights reserved to Microsoft</span></p>"
+                            },
+                            {
+                                "@odata.type": "#microsoft.graph.textWebPart",
+                                "id": "902b7d2b-357c-4387-a6d0-1060958c7dc4",
+                                "innerHtml": "<h3 style=\"margin-left:0px;\">What is Covered?</h3><p style=\"margin-left:0px;\">PerksPlus covers a wide range of fitness activities, including but not limited to:&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" data-text-type=\"noSpacing\">&nbsp;</p><ul class=\"customListStyle\"><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Gym memberships • Personal training sessions&nbsp;</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Yoga and Pilates classes • Fitness equipment purchases&nbsp;</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Sports team fees • Health retreats and spas&nbsp;</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Outdoor adventure activities (such as rock climbing, hiking, and kayaking)&nbsp;</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Group fitness classes (such as dance, martial arts, and cycling)&nbsp;</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Virtual fitness programs (such as online yoga and workout classes) In addition to the wide range of fitness activities covered by PerksPlus, the program also covers a variety of lessons and experiences that promote health and wellness.&nbsp;</p></li></ul><p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" data-text-type=\"noSpacing\">Some of the lessons covered under PerksPlus include:&nbsp;</p><ul class=\"customListStyle\"><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Skiing and snowboarding lessons&nbsp;</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Scuba diving lessons&nbsp;</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Surfing lessons&nbsp;</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Horseback riding lessons&nbsp;</p></li></ul><p>&nbsp;</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imageurl=\"/teams/GettingReadyforTridentFabric/SiteAssets/SitePages/myPage2/1888763914.png\" data-uploading=\"0\" data-overlaystylesoverlaytransparency=\"0\" data-overlaystylesoverlaycolor=\"light\" data-overlaystylestextboxopacity=\"0.54\" data-overlaystylestextboxcolor=\"dark\" data-overlaystylesisitalic=\"false\" data-overlaystylesisbold=\"false\" data-overlaystylestextcolor=\"light\" data-overlaytextstyles=\"{&quot;textColor&quot;:&quot;light&quot;,&quot;isBold&quot;:false,&quot;isItalic&quot;:false,&quot;textBoxColor&quot;:&quot;dark&quot;,&quot;textBoxOpacity&quot;:0.54,&quot;overlayColor&quot;:&quot;light&quot;,&quot;overlayTransparency&quot;:0}\" data-uniqueid=\"2e94b674-db53-414d-83d3-25e78603281d\" data-webid=\"6cc4f960-8318-457a-bf66-db127cee1d1d\" data-siteid=\"c4a7b3a3-0c67-498e-b974-fc9b5a62324d\" data-listid=\"7469f5c2-6c2c-4bed-857d-99280d96cf9b\" data-imagenaturalheight=\"765\" data-imagenaturalwidth=\"698\" data-widthpercentage=\"91.12271540469973\" data-width=\"698\" data-height=\"765\"></div><p>&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" data-text-type=\"noSpacing\">These lessons provide employees with the opportunity to try new things, challenge themselves, and improve their physical skills. They are also a great way to relieve stress and have fun while staying active. With PerksPlus, employees can choose from a variety of fitness programs to suit their individual needs and preferences. Whether you're looking to improve your physical fitness, reduce stress, or just have some fun, PerksPlus has you covered.</p><h3 style=\"margin-left:0px;\">What is Not Covered?</h3><p style=\"margin-left:0px;\">In addition to the wide range of activities covered by PerksPlus, there is also a list of things that are not covered under the program. These include but are not limited to:&nbsp;</p><ul class=\"customListStyle\"><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Non-fitness related expenses</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Medical treatments and procedures</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Travel expenses (unless related to a fitness program)</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Food and supplements</p></li></ul>"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "width": 4,
+                        "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages('41c59019-d5ad-41f7-8ddb-b7804e540b54')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.25')/columns('2')/webparts",
+                        "webparts": [
+                            {
+                                "@odata.type": "#microsoft.graph.standardWebPart",
+                                "id": "3bef7d24-167f-4017-8c07-b96b3488effb",
+                                "webPartType": "c70391ea-0b10-4ee9-b2b4-006d3fcad0cd",
+                                "data": {
+                                    "dataVersion": "2.3",
+                                    "description": "Show a collection of links to content such as documents, images, videos, and more in a variety of layouts with options for icons, images, and audience targeting.",
+                                    "title": "Quick links",
+                                    "properties": {
+                                        "isMigrated": true,
+                                        "layoutId": "CompactCard",
+                                        "shouldShowThumbnail": true,
+                                        "imageWidth": 100,
+                                        "hideWebPartWhenEmpty": true,
+                                        "dataProviderId": "QuickLinks",
+                                        "webId": "6cc4f960-8318-457a-bf66-db127cee1d1d",
+                                        "siteId": "c4a7b3a3-0c67-498e-b974-fc9b5a62324d",
+                                        "items@odata.type": "#Collection(graph.Json)",
+                                        "items": [
+                                            {
+                                                "thumbnailType": 3,
+                                                "id": 3,
+                                                "description": "",
+                                                "altText": "",
+                                                "rawPreviewImageMinCanvasWidth": 32767,
+                                                "sourceItem": {
+                                                    "@odata.type": "#graph.Json",
+                                                    "itemType": 0,
+                                                    "fileExtension": ".ASPX",
+                                                    "guids": {
+                                                        "@odata.type": "#graph.Json",
+                                                        "siteId": "c4a7b3a3-0c67-498e-b974-fc9b5a62324d",
+                                                        "webId": "6cc4f960-8318-457a-bf66-db127cee1d1d",
+                                                        "listId": "{203C4BF3-7FF7-4BC2-9939-E8F9C59BB2B5}",
+                                                        "uniqueId": "6c2ebe97-3f1b-47b2-872e-29ea851cacce"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "thumbnailType": 3,
+                                                "id": 2,
+                                                "description": "",
+                                                "altText": "",
+                                                "rawPreviewImageMinCanvasWidth": 32767,
+                                                "sourceItem": {
+                                                    "@odata.type": "#graph.Json",
+                                                    "itemType": 0,
+                                                    "fileExtension": ".ASPX",
+                                                    "guids": {
+                                                        "@odata.type": "#graph.Json",
+                                                        "siteId": "c4a7b3a3-0c67-498e-b974-fc9b5a62324d",
+                                                        "webId": "6cc4f960-8318-457a-bf66-db127cee1d1d",
+                                                        "listId": "{203C4BF3-7FF7-4BC2-9939-E8F9C59BB2B5}",
+                                                        "uniqueId": "be29d9e0-e1ed-4e61-b889-67a6d2b7ada2"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "thumbnailType": 3,
+                                                "id": 1,
+                                                "description": "",
+                                                "altText": "",
+                                                "rawPreviewImageMinCanvasWidth": 32767,
+                                                "sourceItem": {
+                                                    "@odata.type": "#graph.Json",
+                                                    "itemType": 0,
+                                                    "fileExtension": ".ASPX",
+                                                    "guids": {
+                                                        "@odata.type": "#graph.Json",
+                                                        "siteId": "c4a7b3a3-0c67-498e-b974-fc9b5a62324d",
+                                                        "webId": "6cc4f960-8318-457a-bf66-db127cee1d1d",
+                                                        "listId": "{203C4BF3-7FF7-4BC2-9939-E8F9C59BB2B5}",
+                                                        "uniqueId": "958f269c-36fc-4656-a6c7-a28f2e69ce2e"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "listLayoutOptions": {
+                                            "@odata.type": "#graph.Json",
+                                            "showDescription": false,
+                                            "showIcon": true
+                                        },
+                                        "buttonLayoutOptions": {
+                                            "@odata.type": "#graph.Json",
+                                            "showDescription": false,
+                                            "buttonTreatment": 2,
+                                            "iconPositionType": 2,
+                                            "textAlignmentVertical": 2,
+                                            "textAlignmentHorizontal": 2,
+                                            "linesOfText": 2
+                                        },
+                                        "waffleLayoutOptions": {
+                                            "@odata.type": "#graph.Json",
+                                            "iconSize": 1,
+                                            "onlyShowThumbnail": false
+                                        }
+                                    },
+                                    "serverProcessedContent": {
+                                        "htmlStrings": [],
+                                        "searchablePlainTexts": [
+                                            {
+                                                "key": "title",
+                                                "value": "Relaterede Sider"
+                                            },
+                                            {
+                                                "key": "items[0].title",
+                                                "value": "Home"
+                                            },
+                                            {
+                                                "key": "items[1].title",
+                                                "value": "Page1"
+                                            },
+                                            {
+                                                "key": "items[2].title",
+                                                "value": "Page2"
+                                            }
+                                        ],
+                                        "links": [
+                                            {
+                                                "key": "baseUrl",
+                                                "value": "/teams/GettingReadyforTridentFabric"
+                                            },
+                                            {
+                                                "key": "items[0].sourceItem.url",
+                                                "value": "/teams/GettingReadyforTridentFabric/SitePages/Home.aspx"
+                                            },
+                                            {
+                                                "key": "items[1].sourceItem.url",
+                                                "value": "/teams/GettingReadyforTridentFabric/SitePages/myPage2.aspx"
+                                            },
+                                            {
+                                                "key": "items[2].sourceItem.url",
+                                                "value": "/teams/GettingReadyforTridentFabric/SitePages/Page2.aspx"
+                                            }
+                                        ],
+                                        "imageSources": []
+                                    }
+                                }
+                            },
+                            {
+                                "@odata.type": "#microsoft.graph.textWebPart",
+                                "id": "d4e4f80c-121a-4345-8385-a0a0b15882ad",
+                                "innerHtml": "<h2>Egenskaber</h2><p><strong>Supportansvarlig</strong></p><p><a href=\"https://jyskebank.sharepoint.com/SitePages/Support.aspx\">HRSupport</a></p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Godkendelse</strong></p><p>Skal ikke godkendes</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Ændret</strong></p><p>12/09-2024</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Primær tekstansvarlig</strong></p><p>TS</p><p>Jeffrey Lai</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Sekundær tekstansvarlig</strong></p><p>SSP</p><p>Samarbejdsværktøjer</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Informationstype</strong></p><p>Handbook</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Overordnet emne</strong></p><p>HR</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Emne</strong></p><p>Health and Wellness</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Roller</strong></p><p>SME</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Arbejdssteder</strong></p><p>Microsoft</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Beskrivelse</strong></p><p>Introducing PerksPlus - the ultimate benefits program designed to support the health and wellness of employees. With PerksPlus, employees have the opportunity to expense up to $1000 for fitness-related programs, making it easier and more affordable to maintain a healthy lifestyle. PerksPlus is not only designed to support employees' physical health, but also their mental health. Regular exercise has been shown to reduce stress, improve mood, and enhance overall well-being. With PerksPlus, employees can invest in their health and wellness, while enjoying the peace of mind that comes with knowing they are getting the support they need to lead a healthy life.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p><strong>Gammelt Dokument-id</strong></p><p>v99999</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Revideres senest</strong></p><p>31-01-2025</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p><strong>Link til gammel VIS-Docx-version</strong></p><p><a href=\"/teams/GettingReadyforTridentFabric/SitePages/myPage2.aspx\">https://microsofteur.sharepoint.com/teams/GettingReadyforTridentFabric/SitePages/myPage2.aspx</a></p>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

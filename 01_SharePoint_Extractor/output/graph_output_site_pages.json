@@ -1,0 +1,30 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('c4a7b3a3-0c67-498e-b974-fc9b5a62324d')/pages",
+    "@microsoft.graph.tips": "Use $select to choose only the properties your app needs, as this can lead to performance improvements. For example: GET sites('<guid>')/pages?$select=pageLayout,publishingState",
+    "value": [
+        {
+            "@odata.type": "#microsoft.graph.sitePage",
+            "id": "6c2ebe97-3f1b-47b2-872e-29ea851cacce",
+            "lastModifiedDateTime": "2024-09-04T08:19:37Z",
+            "name": "Home.aspx",
+            "webUrl": "https://microsofteur.sharepoint.com/teams/GettingReadyforTridentFabric/SitePages/Home.aspx",
+            "title": "Home"
+        },
+        {
+            "@odata.type": "#microsoft.graph.sitePage",
+            "id": "be29d9e0-e1ed-4e61-b889-67a6d2b7ada2",
+            "lastModifiedDateTime": "2024-09-12T12:10:35Z",
+            "name": "myPage1.aspx",
+            "webUrl": "https://microsofteur.sharepoint.com/teams/GettingReadyforTridentFabric/SitePages/myPage1.aspx",
+            "title": "Teams for Tribes: Udrulning og uddannelse"
+        },
+        {
+            "@odata.type": "#microsoft.graph.sitePage",
+            "id": "41c59019-d5ad-41f7-8ddb-b7804e540b54",
+            "lastModifiedDateTime": "2024-09-12T12:10:11Z",
+            "name": "myPage2.aspx",
+            "webUrl": "https://microsofteur.sharepoint.com/teams/GettingReadyforTridentFabric/SitePages/myPage2.aspx",
+            "title": "PerksPlus Health and Wellness Contoso Electronics"
+        }
+    ]
+}

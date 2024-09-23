@@ -1,0 +1,21 @@
+https://microsofteur.sharepoint.com/teams/GettingReadyforTridentFabric/
+
+https://developer.microsoft.com/en-us/graph/graph-explorer
+
+
+SharePoint Site:
+https://microsofteur.sharepoint.com/teams/GettingReadyforTridentFabric
+
+Query: Get Site ID
+https://graph.microsoft.com/v1.0/sites/microsofteur.sharepoint.com:/teams/GettingReadyforTridentFabric
+Site ID:c4a7b3a3-0c67-498e-b974-fc9b5a62324d
+
+
+Get all pages of site:
+https://graph.microsoft.com/v1.0/sites/c4a7b3a3-0c67-498e-b974-fc9b5a62324d/pages?select=id,name,title,weburl,lastModifiedDateTime
+
+MyPage1.aspx:
+https://graph.microsoft.com/v1.0/sites/c4a7b3a3-0c67-498e-b974-fc9b5a62324d/pages/be29d9e0-e1ed-4e61-b889-67a6d2b7ada2/microsoft.graph.sitePage?$expand=canvasLayout
+
+MyPage2.aspx:
+https://graph.microsoft.com/v1.0/sites/c4a7b3a3-0c67-498e-b974-fc9b5a62324d/pages/41c59019-d5ad-41f7-8ddb-b7804e540b54/microsoft.graph.sitePage?$expand=canvasLayout
